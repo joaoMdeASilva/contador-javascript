@@ -8,18 +8,18 @@
 body {
     font-family: Montserrat;
     font-size: 2em;
-    background: rgb(17,61,86);
+    background-size: auto;
     background: linear-gradient(-45deg, rgba(17,61,86,1) 0%, rgba(30,104,146,1) 100%) no-repeat center;
+    font-size: 2rem;
     height: 100vh;
 }
 
-h1 {
-    text-transform: uppercase;
-}
+
 
 .fundo-gradient-sombra {
     background: linear-gradient(-45deg, rgba(9,31,44,1) 0%, rgba(30,104,146,1) 100%);
     box-shadow: 0px 0px 13.2px 0px rgba(0,0,0,0.80);
+    border-radius: 10px;
 }
 
 /*container*/
@@ -27,12 +27,10 @@ h1 {
     height: 100vh;
     display: flex;
     justify-content: center;
-    
+    align-items: 100px;
 }
-
 #container {
-    margin: 10px;
-    border: 1px solid;
+    margin-top: 200px;
     width: fit-content;
     height: fit-content;
 }
@@ -40,8 +38,62 @@ h1 {
 #contador {
     width: 142px;
     height: 71px;
-    border-radius: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid #1E6892;
 }
+
+/*header*/
+header h1 {
+    margin-bottom: 55px;
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+/*section corpo contador*/
+#section-corpo-contador {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+}
+
+/*Botões*/
+#seciton-botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.btn {
+    box-shadow: 0px 0px 13.2px 0px rgba(255,255,255,0.80);
+    height: 50px;
+    width: 100px;
+    border: 1px solid white;
+    font-size: 2rem;
+    transition: background .3s;
+}
+
+.btn:hover {
+    box-shadow: 0px 0px 13.2px 0px rgba(255,255,255,0.80);
+    height: 50px;
+    width: 100px;
+    border: 1px solid white;
+    font-size: 2rem;
+    cursor: pointer;
+    background: #fff;
+}
+
+.btn:active {
+    box-shadow: 0px 0px 13.2px 0px rgba(255,255,255,0.80);
+    height: 50px;
+    width: 100px;
+    border: 1px solid white;
+    font-size: 2rem;
+    cursor: pointer;
+    background: linear-gradient(-45deg, rgba(9,31,44,1) 0%, rgba(30,104,146,1) 100%);
+    box-shadow: 0px 0px 13.2px 0px rgba(0,0,0,0.80);
+    border-radius: 10px;
+}
+
+
