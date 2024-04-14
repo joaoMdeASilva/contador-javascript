@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contador</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="">
+    <link rel="icon" href="./assets/img/favicon/favicon-16x16.ico" sizes="32x32" type="image/x-icon">
+    <link rel="icon" href="./assets/img/favicon/favicon-32x32.ico" sizes= "16x16" type="image/x-icon">
 </head>
 <body>
     <main>
@@ -31,8 +34,8 @@
                     </div>
                     
                     <section id="seciton-botoes">
-                        <button id="botao-mais" class="fundo-gradient-sombra btn" >+</button>
-                        <button id="botao-menos" class="fundo-gradient-sombra btn">-</button>
+                        <button id="botao-mais" class="fundo-gradient-sombra btn" onclick="botaoMais()">+</button>
+                        <button id="botao-menos" class="fundo-gradient-sombra btn" onclick="botaoMenos()">-</button>
                     </section>
 
                 <!--Fim da section do corpo do contador-->
@@ -47,6 +50,6 @@
         
 
     </main>
-
+    <script src="./js/index.js"></script>
 </body>
 </html>
