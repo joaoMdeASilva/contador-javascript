@@ -5,8 +5,6 @@
     <img src="./assets/imgREADME/printContador.JPG">
 </h1>
 
-<p style="text-align: center; font-weight: bold">🚧README ainda em produção!🚧</p>
-
 ## Sumário
 
 - [Sobre](#sobre)
