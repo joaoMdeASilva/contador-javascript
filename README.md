@@ -5,12 +5,6 @@
     <img src="./assets/imgREADME/printContador.JPG">
 </h1>
 
-## Sumário
-
-- [Sobre](#sobre)
-- [Pré-requisitos](#pré-requisitos)
-- [Como usar](#como-usar)
-
 ## Sobre
 
 Este é um projeto simples utilizando as tecnologias: HTML, CSS e Javascript. Ele tem a finalidade de ser um contador, de números. Este projeto é para treinar javascript do básic. Em rumo ao avançado!
