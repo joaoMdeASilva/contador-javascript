@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,55 +8,44 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="apple-touch-icon" sizes="180x180" href="">
     <link rel="icon" href="./assets/img/favicon/favicon-16x16.ico" sizes="32x32" type="image/x-icon">
-    <link rel="icon" href="./assets/img/favicon/favicon-32x32.ico" sizes= "16x16" type="image/x-icon">
+    <link rel="icon" href="./assets/img/favicon/favicon-32x32.ico" sizes="16x16" type="image/x-icon">
 </head>
+
 <body>
-    <main>
+    <div class="container">
+        <header>
+            <h1>Contador</h1>
+        </header>
 
-        <!--Começo da div para centralizar o container-->
-        <div id="centralizar-container">
+        <!--início da section do corpo do contador-->
+        <div class="counter-container">
 
-            <!--Início da div container-->
-            <div id="container">
-                <header>
-                    <h1>Contador</h1>
-                </header>
-                
-                <!--início da section do corpo do contador-->
-                <section id="section-corpo-contador">
-
-                    <!--Início div contador-->
-                    <div id="div-contador">
-                        <span id="contador" class="fundo-gradient-sombra">
-                            0
-                        </span>
-
-                    <!--Fim div contador-->
-                    </div>
-                    
-                    <section id="seciton-botoes">
-                        <button id="botao-mais" class="fundo-gradient-sombra btn" onclick="botaoMais()">+</button>
-                        <button id="botao-menos" class="fundo-gradient-sombra btn" onclick="botaoMenos()">-</button>
-                    </section>
-
-                <!--Fim da section do corpo do contador-->
-                </section>
-
-            <!--Fim da div container-->
+            <div class="box counter-box" id="counter">
+                0
             </div>
-        <!--Fim da div para centralizar o container-->
-        </div>
-    </main>
 
-    <footer >
-        <span>2024 João Marcos</span> 
-        <ul id="ul-do-footer">
-            <li><a href="https://github.com/joaoMdeASilva"><img src="./assets/img/svg/github-icone.svg" alt="Link para o Github"></a></li>
-            <li><a href="https://www.linkedin.com/in/jo%C3%A3o-marcos-153099303/"><img src="./assets/img/svg/linkedin-icone.svg" alt="Link para o LinkedIN"></a></li>
-            <li><a href="https://www.instagram.com/jao_marcosx124/"><img src="./assets/img/svg/instagram-icone.svg" alt="Link para o Instagram"></a></li>
+            <div class="btn-container">
+                <button id="plus-btn" class="btn">+</button>
+                <button id="minus-btn" class="btn">-</button>
+            </div>
+
+            <!--Fim da section do corpo do contador-->
+        </div>
+    </div>
+
+    <footer>
+        <span>2024 João Marcos</span>
+        <ul>
+            <li><a href="https://github.com/joaoMdeASilva"><img src="./assets/img/svg/github-icone.svg"
+                        alt="Link para o Github"></a></li>
+            <li><a href="https://www.linkedin.com/in/jo%C3%A3o-marcos-153099303/"><img
+                        src="./assets/img/svg/linkedin-icone.svg" alt="Link para o LinkedIn"></a></li>
+            <li><a href="https://www.instagram.com/jao_marcosx124/"><img src="./assets/img/svg/instagram-icone.svg"
+                        alt="Link para o Instagram"></a></li>
         </ul>
-        
     </footer>
+
     <script src="./js/index.js"></script>
 </body>
+
 </html>

@@ -1,175 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,600&display=swap');
+
+:root {
+    --principal-color: #2277a8;
+}
 
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
     font-family: Montserrat;
-    font-size: 2em;
-    background-size: auto;
-    background: -o-linear-gradient(135deg, rgba(17,61,86,1) 0%, rgba(30,104,146,1) 100%) no-repeat center;
-    background: linear-gradient(-45deg, rgba(17,61,86,1) 0%, rgba(30,104,146,1) 100%) no-repeat center;
-    font-size: 2rem;
+    font-size: 1.5em;
+    background: linear-gradient(-45deg, rgba(17, 61, 86, 1) 0%, rgba(30, 104, 146, 1) 100%) no-repeat center;
+    color: white;
     height: 100vh;
-}
-
-
-
-.fundo-gradient-sombra {
-    background: -o-linear-gradient(135deg, rgba(9,31,44,1) 0%, rgba(30,104,146,1) 100%);
-    background: linear-gradient(-45deg, rgba(9,31,44,1) 0%, rgba(30,104,146,1) 100%);
-    -webkit-box-shadow: 0px 0px 13.2px 0px rgba(0,0,0,0.80);
-            box-shadow: 0px 0px 13.2px 0px rgba(0,0,0,0.80);
-    border-radius: 10px;
-}
-
-/*container*/
-#centralizar-container {
-    height: 80vh;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
 }
-#container {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
+
+button {
+    all: unset
+}
+
+a {
+    all: unset;
+}
+
+h1 {
+    font-size: 2rem;
     width: fit-content;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
+    margin: auto;
 }
 
-#contador {
-    width: 142px;
-    height: 71px;
-    display: -webkit-box;
-    display: -ms-flexbox;
+.bg-gradient {
+    background: linear-gradient(-45deg, #2277a8 0%, rgb(30, 104, 146) 100%);
+    box-shadow: 0 0 .5rem 0 rgba(0, 0, 0, .8);
+    border-radius: .5rem;
+}
+
+.container {
+    height: 100%;
     display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    border: 1px solid #1E6892;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center
 }
 
-/*header*/
-header h1 {
-    margin-bottom: 55px;
-    text-transform: uppercase;
-    font-size: 1em;
+.box {
+    text-align:center;
+    background-color: var(--principal-color);
+    border-radius: .4rem;
+    width: fit-content;
+    padding: 1rem 0;
+    width: 10rem;
 }
 
-/*section corpo contador*/
-#section-corpo-contador {
-    display: -webkit-box;
-    display: -ms-flexbox;
+.counter-container {
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    gap: 25px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
 }
 
-/*Botões*/
-#seciton-botoes {
-    display: -webkit-box;
-    display: -ms-flexbox;
+.btn-container {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
 }
 
 .btn {
-    -webkit-box-shadow: 0px 0px 13.2px 0px rgba(255,255,255,0.80);
-            box-shadow: 0px 0px 13.2px 0px rgba(255,255,255,0.80);
-    height: 50px;
-    width: 100px;
-    border: 1px solid white;
-    font-size: 2rem;
-    -webkit-transition: background .3s;
-    -o-transition: background .3s;
-    transition: background .3s;
+    padding: .8rem 3rem;
+    background-color: var(--principal-color);
+    border-radius: .4rem;
+    transition: box-shadow .3s;
+    user-select: none;
 }
 
 .btn:hover {
-    -webkit-box-shadow: 0px 0px 13.2px 0px rgba(255,255,255,0.80);
-            box-shadow: 0px 0px 13.2px 0px rgba(255,255,255,0.80);
-    height: 50px;
-    width: 100px;
-    border: 1px solid white;
-    font-size: 2rem;
-    cursor: pointer;
-    background: #fff;
+    box-shadow: 0 2px .5rem #000;
 }
 
 .btn:active {
-    -webkit-box-shadow: 0px 0px 13.2px 0px rgba(255,255,255,0.80);
-            box-shadow: 0px 0px 13.2px 0px rgba(255,255,255,0.80);
-    height: 50px;
-    width: 100px;
-    border: 1px solid white;
-    font-size: 2rem;
-    cursor: pointer;
-    background: -o-linear-gradient(135deg, rgba(9,31,44,1) 0%, rgba(30,104,146,1) 100%);
-    background: linear-gradient(-45deg, rgba(9,31,44,1) 0%, rgba(30,104,146,1) 100%);
-    -webkit-box-shadow: 0px 0px 13.2px 0px rgba(0,0,0,0.80);
-            box-shadow: 0px 0px 13.2px 0px rgba(0,0,0,0.80);
-    border-radius: 10px;
+    box-shadow: none;
 }
 
 /*footer*/
 footer {
-    height: 20vh;
+    padding: 5rem;
+    margin-top: auto;
     background-color: #000;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    gap: 8px;
-    color: #fff;
-    font-size: 1rem;
+    color: white;
+    font-weight: 600;
     font-family: Roboto;
-}
-
-#ul-do-footer {
-    list-style-type: none;
-    display: -webkit-box;
-    display: -ms-flexbox;
+    font-size: 1.3rem;
     display: flex;
-    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
 }
 
-
-.example {
-    display: -ms-grid;
-    display: grid;
-    -webkit-transition: all .5s;
-    -o-transition: all .5s;
-    transition: all .5s;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    background: -webkit-gradient(linear, left top, left bottom, from(white), to(black));
-    background: -o-linear-gradient(top, white, black);
-    background: linear-gradient(to bottom, white, black);
+footer ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
 }

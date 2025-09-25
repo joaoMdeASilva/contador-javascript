@@ -1,11 +1,15 @@
-let contador = 0;
+const plusBtn = document.getElementById('plus-btn');
+const minusBtn = document.getElementById('minus-btn')
 
-function botaoMais() {
-    contador++
-    return document.getElementById('contador').innerText = contador;     
-}
+let count = 0;
+const counter = document.getElementById('counter');
+counter.innerText = 0;
+plusBtn.addEventListener('click', () => {
+    count++;
+    counter.innerText = count;
+})
 
-function botaoMenos() {
-    contador--
-    return document.getElementById('contador').innerText = contador;     
-}
+minusBtn.addEventListener('click', () => {
+    count--;
+    counter.innerText = count;
+})
