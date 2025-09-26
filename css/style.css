@@ -81,6 +81,7 @@ h1 {
 
 .btn:hover {
     box-shadow: 0 2px .5rem #000;
+    cursor: pointer;
 }
 
 .btn:active {
@@ -93,17 +94,26 @@ footer {
     margin-top: auto;
     background-color: #000;
     color: white;
-    font-weight: 600;
     font-family: Roboto;
-    font-size: 1.3rem;
+    font-weight: 600;
+    font-size: 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: .5rem;
+    gap: 5rem;
 }
-
 footer ul {
     list-style-type: none;
     display: flex;
-    gap: 1rem;
+    align-items: center;
+    gap: 2rem;
+}
+
+footer a {
+    cursor: pointer;
+}
+
+footer img {
+    width: 2rem;
+    height: 2rem;
 }
