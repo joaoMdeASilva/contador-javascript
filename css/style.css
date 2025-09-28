@@ -3,6 +3,9 @@
 
 :root {
     --principal-color: #2277a8;
+    --black-color: #171717;
+    --gray-color: #313131;
+    --gray-opacity-color:#313131aa;
 }
 
 * {
@@ -80,7 +83,7 @@ h1 {
 }
 
 .btn:hover {
-    box-shadow: 0 2px .5rem #000;
+    box-shadow: 0 2px .5rem var(--black-color);
     cursor: pointer;
 }
 
@@ -88,11 +91,10 @@ h1 {
     box-shadow: none;
 }
 
-/*footer*/
 footer {
     padding: 5rem;
     margin-top: auto;
-    background-color: #000;
+    background-color: var(--black-color);
     color: white;
     font-family: Roboto;
     font-weight: 600;
@@ -100,20 +102,34 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 5rem;
+    gap: 30%;
 }
-footer ul {
+
+footer h2 {
+    font-size: 1.1rem;
+}
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.contact-container ul {
     list-style-type: none;
     display: flex;
-    align-items: center;
-    gap: 2rem;
+    gap: 1rem;
 }
 
-footer a {
+.contact-container a {
     cursor: pointer;
-}
+    display: block;
+    background-color: var(--gray-color);
+    padding: .5rem;
+    border-radius: .2rem;
+    width: fit-content;
+}   
 
-footer img {
+.contact-container img {
+    display: block;
     width: 2rem;
-    height: 2rem;
 }
