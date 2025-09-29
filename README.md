@@ -7,25 +7,58 @@
 ## Navegação
 - [Sobre](#sobre)
 - [Pré-requisitos](#pré-requisitos)
-- [Como usar](#como-usar)
 
 ## Sobre
 
 Este é um projeto simples, utilizando as tecnologias: HTML, CSS e Javascript. O objtivo é desenvolver uma interface web de um contador numerico, para praticar o básico do desenvolvimento front-end web, para futuramente dominar o avançado.
 
-## Pré-requisitos
+## Como usar
 
-- Saber o básico de terminal
-- Possuir o git
+### Apresentarei duas maneiras para abrir o site:
+- [Pelo explorador de arquivos](#pelo-explorador-de-arquivos)
+- [Por meio do terminal](#por-meio-do-terminal)
 
-## Como usar 
+#### Pelo explorador de arquivos:
+1. No canto superior direito clique no botão escrito **"Code"**
+2. Clique no botão **"Download ZIP"**
+3. Abra o seu explorador de arquivos
+4. Abra a pasta onde foio baixado o arquivo zip
+5. Extrai o arquivo contador-javascipt-main.zip
+6. Entre na pasta **"contador-javascript-main"**
+7. Abra o arquivo **"index.html"** (Abrirá o projeto no navegador)
 
-``` bash
+#### Por meio do terminal
+Este meio é mais avançado, pois não é simples trazer todas as possibilidades,
+devido a diversidade de sistema operacionais, exploradores de arquivo e
+navegadores.
+
+##### Pré-requisitos
+
+1. Ter algum software de bash ou semelhante
+2. Ter Instalado o **Git**
+
+
+**Usarei o sistema operacional Opensuse Tumblweed Linux no terminal do Gnome
+com o explorador de arquivos GNOME nautilus 49.0 e o navegador Mozilla Firefox 143.0.1.**
+
+```bash
 # Clone o repositório
 $ git clone https://github.com/joaoMdeASilva/contador-javascript.git
 
-# Entre no reposítorio
+# Entre no diretório
 $ cd contador-javascript
-```
 
-Após isto, execute o arquivo "index.html"  
+# Primeiro meio:
+# Abrinfo um explorador de arquivos neste diretório
+# no meu caso utilizei o "GNOME nautilus 49.0"
+$ nautilus .
+
+# Explorador de arquivos foi aberto no diretório do projeto
+# Abra o arquivo index.html (Abrirá o projeto no seu navegador)
+
+# Segundo meio:
+# Abrindo o projeto no navedor Firefox direto do terminal
+$ firefox index.html
+
+# Abrirá o Projeto no navegador firefox
+```
