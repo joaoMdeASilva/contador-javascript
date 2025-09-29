@@ -1,13 +1,12 @@
-<h1>
-    Contador com javascript
+<h1 style="text-align: center">Contador em javascript
     <br>
     <br>
-    <img src="./assets/imgREADME/printContador.JPG">
+    <img src="./images/screenshots/contador-screenshot.webp" alt="Imagem da interface do projeto do contador web" title="Interface do projeto do contador web" width="500" style="margin: auto">
 </h1>
 
 ## Sobre
 
-Este é um projeto simples utilizando as tecnologias: HTML, CSS e Javascript. Ele tem a finalidade de ser um contador, de números. Este projeto é para treinar javascript do básic. Em rumo ao avançado!
+Este é um projeto simples, utilizando as tecnologias: HTML, CSS e Javascript. O objtivo é desenvolver uma interface web de um contador numerico, para praticar o básico do desenvolvimento front-end web, para futuramente dominar o avançado.
 
 ## Pré-requisitos
 
