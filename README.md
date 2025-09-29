@@ -6,7 +6,7 @@
 
 ## Navegação
 - [Sobre](#sobre)
-- [Pré-requisitos](#pré-requisitos)
+- [Como usar](#como-usar)
 
 ## Sobre
 
