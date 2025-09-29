@@ -28,18 +28,19 @@ Este é um projeto simples, utilizando as tecnologias: HTML, CSS e Javascript. O
 7. Abra o arquivo **"index.html"** (Abrirá o projeto no navegador)
 
 #### Por meio do terminal
-Este meio é mais avançado, pois não é simples trazer todas as possibilidades,
-devido a diversidade de sistema operacionais, exploradores de arquivo e
-navegadores.
+[!WARNING]
+> Este meio é mais avançado, pois não é simples trazer todas as possibilidades,
+> devido a diversidade de sistema operacionais, exploradores de arquivo e
+> navegadores.
 
 ##### Pré-requisitos
 
 1. Ter algum software de bash ou semelhante
 2. Ter Instalado o **Git**
 
-
-**Usarei o sistema operacional Opensuse Tumblweed Linux no terminal do Gnome
-com o explorador de arquivos GNOME nautilus 49.0 e o navegador Mozilla Firefox 143.0.1.**
+[!WARNING]
+> **Usarei o sistema operacional Opensuse Tumblweed Linux no terminal do Gnome
+> com o explorador de arquivos GNOME nautilus 49.0 e o navegador Mozilla Firefox 143.0.1.**
 
 ```bash
 # Clone o repositório
