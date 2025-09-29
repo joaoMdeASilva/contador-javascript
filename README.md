@@ -1,4 +1,4 @@
-<h1 style="text-align: center">Contador em javascript
+<h1 align="center">Contador em javascript
     <br>
     <br>
     <img src="./images/screenshots/contador-screenshot.webp" alt="Imagem da interface do projeto do contador web" title="Interface do projeto do contador web" width="500" style="margin: auto">
