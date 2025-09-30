@@ -19,6 +19,9 @@ Este é um projeto simples, utilizando as tecnologias: HTML, CSS e Javascript. O
 - [Por meio do terminal](#por-meio-do-terminal)
 
 #### Pelo explorador de arquivos:
+1. Certifique-se de que a branch main está selecionada
+   1. No canto superior esquerdo existe um botão com o nome da branch escolhida, e está localizado ao lado esquerdo de um botão que tem como conteúdo **"Branches"** juntamente com o números de Branches existentes no projeto ao lado esquerdo.
+   2. Ao clicar escolha a opção **"main"**
 1. No canto superior direito clique no botão escrito **"Code"**
 2. Clique no botão **"Download ZIP"**
 3. Abra o seu explorador de arquivos
